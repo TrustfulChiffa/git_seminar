@@ -11,7 +11,7 @@
 
 
 Console.Clear();
-Console.Write("Введите число от 100 до 1000");
+Console.Write("Введите число от 100 до 999");
 int N = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
 if (N > 9999 & N < 100000)
