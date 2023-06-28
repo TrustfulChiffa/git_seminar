@@ -11,7 +11,7 @@
 
 
 Console.Clear();
-Console.Write("Введите пятизначное число ");
+Console.Write("Введите число от 100 до 1000");
 int N = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
 if (N > 9999 & N < 100000)
@@ -30,4 +30,5 @@ if (N > 9999 & N < 100000)
     else
     {
         Console.WriteLine("Вы ввели не пятизначное число. Повторите попытку.");
+    
     }
